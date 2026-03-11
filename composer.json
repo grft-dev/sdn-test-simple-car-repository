@@ -1,0 +1,33 @@
+{
+  "name": "sdn/test-simple-car-repository",
+  "description": "Package simple in-memory repository of a car for cross-platform grafts tests on graftcode",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "sdn/test-simple-car": "^0.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "GrftTestSimpleCarRepository\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "graftcode",
+      "email": "support@graftcode.com",
+      "homepage": "https://graftcode.com"
+    }
+  ],
+  "keywords": ["sdn", "graftcode", "javonet"],
+  "homepage": "https://github.com/grft-dev/sdn-test-simple-car-repository",
+  "support": {
+    "source": "https://github.com/grft-dev/sdn-test-simple-car-repository"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
